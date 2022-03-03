@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <form action="pedido.js">
+        <h2>Es hora de escoger como vas a querer tu pastel. :)</h2>
+        <hr>
+        <label for="nombre">¿Cual es tu nombre?</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="telefono">¿Cual es su número de telefono?</label>
+        <input type="tel" name="telefono" id="telefono" maxlength="10"><br>
+        <label for="correo">Ingrese algun correo al cual contactar:</label>
+        <input type="email" name="correo" id="correo"><br>
+        <label for="desc">Describe los datalles de tu pastel</label>
+        <input type="text" name="desc" id="desc"><br><br>
+        <br>
+        <label for="piso">¿Cuantos pisos desea?</label>
+        <input type="number" name="piso" id="piso" min="1" max="3">
+        <p>Sabores</p>
+        <label for="fresa">Fresa</label>
+        <input type="checkbox" name="fresa" id="fresa" value="fresa"><br>
+        <label for="chocolate">Chocolate</label>
+        <input type="checkbox" name="chocolate" id="chocolate"><br>
+        <label for="chocolate_b">Chocolate blanco</label>
+        <input type="checkbox" name="chocolate_b" id="chocolate_b"><br>
+        <label for="kiwi">Kiwi</label>
+        <input type="checkbox" name="kiwi" id="kiwi"><br>
+        <label for="vainilla">Vainilla</label>
+        <input type="checkbox" name="vainilla" id="vainilla"><br>
+        <label for="cajeta">Cajeta</label>
+        <input type="checkbox" name="cajeta" id="cajeta"><br><br>
+
+        <p>Adornos</p>
+        <input type="radio" name="base" id="chantilly"> Chantilly
+        <br>
+        <input type="radio" name="base" id="fondant">Fondant
+        <br>
+        <input type="radio" name="nombre" id="nombre">Nombre en el pastel
+        <br>
+        <input type="radio" name="fruta" id="fresa">Fresa
+        <br>
+        <input type="radio" name="fruta" id="Moras">Moras
+        <br>
+        <input type="reset">
+        <input type="submit"><br><br>
+        
+    </form>
+
+    
+</body>
+</html>
